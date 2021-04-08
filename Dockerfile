@@ -27,10 +27,10 @@ RUN chmod +x /root/*.sh && \
 VOLUME /config
 
 # expose port for minecraft
-EXPOSE 25565
+EXPOSE 25566
 
 # expose ipv4 port for minecraft web ui console
-EXPOSE 8222/tcp
+EXPOSE 8223/tcp
 
 # set permissions
 #################
